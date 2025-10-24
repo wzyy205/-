@@ -20,7 +20,7 @@ def file2matrix(filename):
         return_mat[index,:]=list_from_line[0:3]
         class_label_vector.append(int(list_from_line[-1]))
         index+=1
-    return return_mat,class_label_vector
+    return return_mat,class_label_vect
 
 
 #file_path = r"C:\Users\Administrator\Desktop\lesson1\datingTestSet2.txt"
